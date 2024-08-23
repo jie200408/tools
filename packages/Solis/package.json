@@ -15,10 +15,12 @@
     "typescript",
     "vitepress",
     "vitepress-plugin",
-    "vitepress-theme"
+    "vitepress-theme",
+    "scss",
+    "sass"
   ],
   "main": "types/theme.ts",
-  "style": "style/styles.css",
+  "style": "style/styles.scss",
   "scripts": {
     "release": "bumpp && pnpm -r publish --registry=https://registry.npmjs.org"
   },
